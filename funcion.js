@@ -1,3 +1,3 @@
 var ventana = "hola";
 
-alert(ventana)
+alert(ventana);
