@@ -1,6 +1,6 @@
 var ventana;
 
-var hola = "Bienvenido";
-ventana = prompt("Pon tu nombre");
+var hola = "Hola!!!";
+ventana = prompt("Por favor pon tu nombre");
 
-alert(hola + " " + ventana);
+alert(hola + " " + " " + ventana);
