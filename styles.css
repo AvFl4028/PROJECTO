@@ -41,10 +41,25 @@ font-family: 'Itim', cursive;
 
 .title{
     background:white;
+    size: 400px;
 }
-a{
+
+.link{
     text-decoration: none;
     color: white;
+    background: black;
+}
+
+.botton{
+    background: black;
+    color: white;
+    align-items: center;
+    text-decoration: none; 
+}
+
+.program ul p a:hover{
+    border-bottom: 2px solid white;
+    padding: 2px;
     background: black;
 }
 ul{
@@ -56,14 +71,18 @@ h1{
     text-align: center;
 }
 
+h2{
+    background:white;
+}
+
 p{
     background:white;
     text-align:center;
-    padding: 200px;
 }
 
 .text{
     size: 300px;
+    padding: 200px;
 }
 
 .texto{
