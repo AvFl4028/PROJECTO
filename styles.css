@@ -53,4 +53,29 @@ ul{
 
 h1{
     background:white;
+    text-align: center;
+}
+
+p{
+    background:white;
+    text-align:center;
+    padding: 200px;
+}
+
+.text{
+    size: 300px;
+}
+
+.texto{
+    padding: 1px;
+}
+.program ul li{
+    background: white;
+    text-align: center;
+}
+
+footer{
+    background: black;
+    color:white;
+    text-align: center;
 }
