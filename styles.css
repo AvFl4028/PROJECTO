@@ -84,6 +84,22 @@
     align-items: flex-end;
 }
 
+/**Esta parte es para centrar las imagenes */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background: white;
+}
+
+/**Esta parte es para que las imagenes tengan un borde */
+
+img{
+    border: 3px solid black;
+}
+
 ul{
     list-style: none;
 }
