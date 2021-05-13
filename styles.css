@@ -35,7 +35,7 @@
 
 .graduación img{
     width:100%;
-    height: 900px;
+    height: 125%;
     background: white;
     margin: auto;
 }
@@ -150,4 +150,34 @@ footer{
     background: black;
     color:white;
     text-align: center;
+}
+
+.Bienvenida{
+    background: cornflowerblue;
+}
+
+/**Es un arroba "@" y no un hastag "#" 
+ * Y es para poder diferenciar en vista movil
+*/
+
+@media (max-width: 700px) {
+    /*body {background:red;}**/
+    .container .text{
+        padding:50px;
+        text-align: center;
+    }
+    .barra .img{
+        display: block;
+        top: 0;
+        transform: translateX(0px);
+    }
+    .barra{
+        padding: 10px;
+    }
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
 }
