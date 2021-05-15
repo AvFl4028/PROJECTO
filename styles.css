@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #010002;
+    background-image: url("data:image/svg+xml,%3Csvg width='48' height='64' viewBox='0 0 48 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M48 28v-4L36 12 24 24 12 12 0 24v4l4 4-4 4v4l12 12 12-12 12 12 12-12v-4l-4-4 4-4zM8 32l-6-6 10-10 10 10-6 6 6 6-10 10L2 38l6-6zm12 0l4-4 4 4-4 4-4-4zm12 0l-6-6 10-10 10 10-6 6 6 6-10 10-10-10 6-6zM0 16L10 6 4 0h4l4 4 4-4h4l-6 6 10 10L34 6l-6-6h4l4 4 4-4h4l-6 6 10 10v4L36 8 24 20 12 8 0 20v-4zm0 32l10 10-6 6h4l4-4 4 4h4l-6-6 10-10 10 10-6 6h4l4-4 4 4h4l-6-6 10-10v-4L36 56 24 44 12 56 0 44v4z' fill='%2300fbf0' fill-opacity='0.7' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-family: 'Itim', cursive;
+}
+    
+/**Projecto
+ * snapsot1
+ */
+
+.background{
+    background: black;
+}
+
+.barra{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 40px;
+    background: black;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.img{
+    width: 75px;
+    background: black;
+}
+
+.graduación img{
+    width:100%;
+    height: 125%;
+    background: white;
+    margin: auto;
+}
+
+.graduación{
+    background: white;
+}
+
+.barra ul li a:hover{
+    border-bottom: 2px solid white;
+    padding: 2px;
+    background: black;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    background:white;
+}
+
+.title{
+    background:white;
+    size: 400px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+
+.program{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background: white;
+}
+
+.botton{
+    background: black;
+    color: white;
+    align-items: center;
+    text-decoration: none; 
+}
+
+.program ul p a:hover{
+    border-bottom: 2px solid gray;
+    padding: 2px;
+    background: black;
+}
+.program ul li{
+    background: white;
+    text-align: center;
+}
+
+.program ul{
+    background: white;
+}
+
+.program ul img{
+    width: 150px;
+}
+
+.program ul img .imagen{
+    align-items: flex-end;
+}
+
+/**Esta parte es para centrar las imagenes */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background: white;
+}
+
+/**Esta parte es para que las imagenes tengan un borde */
+
+img{
+    border: 3px solid black;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    background:white;
+    text-align: center;
+}
+
+h2{
+    background:white;
+}
+
+p{
+    background:white;
+    text-align:justify;
+    width: 90%;
+    margin: auto;
+}
+
+.text{
+    size: 300px;
+    padding: 20px;
+}
+
+.texto{
+    padding: 1px;
+}
+
+footer{
+    background: black;
+    color:white;
+    text-align: center;
+}
+
+.Bienvenida{
+    background: cornflowerblue;
+}
+
+/**Es un arroba "@" y no un hastag "#" 
+ * Y es para poder diferenciar en vista movil
+*/
+
+@media (max-width: 700px) {
+    /*body {background:red;}**/
+    .container .text{
+        padding:50px;
+        text-align: center;
+    }
+    .barra .img{
+        display: block;
+        top: 0;
+        transform: translateX(0px);
+    }
+    .barra{
+        padding: 10px;
+    }
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
+}
