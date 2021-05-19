@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+.barra ul {
+    display: flex;
+}
+
 .img{
     width: 75px;
     background: black;
@@ -163,22 +167,8 @@ footer{
 
 @media (max-width: 700px) {
     /*body {background:red;}**/
-    .container .text{
-        padding:50px;
-        text-align: center;
-    }
-    .barra .img{
-        display: block;
-        top: 0;
-        transform: translateX(0px);
-    }
-    .barra{
-        padding: 10px;
-    }
+.container .text{
+padding:0px;
+text-align: center;
 }
-
-@keyframes mover{
-    0%{
-        transform: translate(100%);
-    }
 }
