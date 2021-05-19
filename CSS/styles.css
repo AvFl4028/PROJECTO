@@ -167,8 +167,8 @@ footer{
 
 @media (max-width: 700px) {
     /*body {background:red;}**/
-.container .text{
-padding:0px;
-text-align: center;
-}
+    .container .text{
+    padding:0px;
+    text-align: center;
+    }
 }
